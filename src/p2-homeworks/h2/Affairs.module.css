@@ -1,0 +1,18 @@
+.affairItem {
+    display: flex;
+
+    align-items: center;
+}
+
+.affairItem span {
+    width: 150px;
+    padding: 5px;
+    border-bottom: 1px solid #000000;
+}
+
+.affairItem button {
+    border-radius: 50%;
+    border: none;
+    background-color: red;
+    color: white;
+}

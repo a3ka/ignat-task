@@ -1,0 +1,49 @@
+.wrapper {
+    background-color: #7aff02;
+    width: 350px;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+    /*justify-content: space-around;*/
+}
+
+.message {
+    background-color: #174926;
+    width: 270px;
+    height: 77px;
+    display: flex;
+    flex-direction: column;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+    margin: 40px 15px 0px 5px;
+    border-radius: 45px;
+}
+
+.message__secondLine {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.nameStyle {
+    color: #886ada;
+    font-size: 20px;
+    margin: 8px 0px 0px 10px;
+}
+
+.messageStyle {
+    color: #3dcc68;
+    font-size: larger;
+    margin: 3px 0px 0px 10px;
+}
+
+.timeStyle {
+    color: #3f8054;
+    font-size: larger;
+    margin: 15px 10px 0px 0px;
+}
