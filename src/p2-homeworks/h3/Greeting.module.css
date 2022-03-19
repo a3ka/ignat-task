@@ -5,3 +5,15 @@
 .error {
     border: 1px solid red;
 }
+
+.errorText {
+    color: red;
+}
+
+.nonError {
+    border: 1px solid green;
+}
+
+.nonErrorText {
+    color: red;
+}
