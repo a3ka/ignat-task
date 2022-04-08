@@ -10,9 +10,14 @@ function HW6() {
         saveState<string>('editable-span-value', value)
     }
     const restore = () => {
-        // setValue()
+        // restoreState<string>('editable-span-value', ) // почему-то не работает. не понял что должно быть вторым аргументом
+        let valueAsString = localStorage.getItem('editable-span-value')
+        if (valueAsString) {
+            let newValue = JSON.parse(valueAsString)
+            setValue(newValue)
+        }
     }
-
+    
     return (
         <div>
             <hr/>
