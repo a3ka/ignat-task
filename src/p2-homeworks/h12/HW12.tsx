@@ -17,8 +17,6 @@ function HW12() {
 
     return (
         <div className={s[theme]}>
-
-            {console.log(theme)}
             <hr/>
             <span className={s[theme + '-text']}>
                <h1>homeworks 12</h1>
@@ -32,8 +30,6 @@ function HW12() {
                 />
             </div>
 
-            {/*should work (должно работать)*/}
-            {/*SuperSelect or SuperRadio*/}
 
             <hr/>
         </div>
